@@ -1,3 +1,12 @@
+<template>
+  <div class="clients-page">
+    <ClientsIntro />
+    <ClientsList />
+    <TopicsSection />
+    <TestimonialsSection />
+  </div>
+</template>
+
 <script setup lang="ts">
 import {useHead} from '@unhead/vue'
 import ClientsIntro from '@/components/sections/clients/ClientsIntro.vue'
@@ -22,12 +31,3 @@ useHead({
   ]
 })
 </script>
-
-<template>
-  <div class="clients-page">
-    <ClientsIntro />
-    <ClientsList />
-    <TopicsSection />
-    <TestimonialsSection />
-  </div>
-</template>

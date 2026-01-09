@@ -1,7 +1,7 @@
 <template>
-  <section v-scroll-reveal="'fade-up'" class="container mx-auto w-full flex flex-col justify-center py-16 gap-20">
-    <div class="group flex gap-6 items-end text-9xl cursor-pointer" @click="router.push('/clients')">
-      <span>Клиенты</span>
+  <section v-scroll-reveal="'fade-up'" class="container mx-auto w-full flex flex-col py-16 gap-20">
+    <div class="group flex w-fit gap-6 items-end text-9xl cursor-pointer" @click="router.push('/clients')">
+      <h3>Клиенты</h3>
       <div>
         <svg
           width="20"
