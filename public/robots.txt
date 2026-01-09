@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://racurs-design.online/sitemap.xml

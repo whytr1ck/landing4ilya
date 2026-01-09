@@ -1,6 +1,8 @@
 import type {App} from 'vue';
 import {setupPrimeVue} from '@/providers/primevue.ts';
+import {setupUnhead} from "@/providers/unhead.ts";
 
 export function setupAdditionalPlugins(app: App): void {
   setupPrimeVue(app);
+  setupUnhead(app);
 }
