@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto w-full flex flex-col py-16 gap-20">
+  <section v-scroll-reveal="'fade-up'" class="container mx-auto w-full flex flex-col py-16 gap-20">
     <h3 class="text-9xl text-left">Отзывы</h3>
     <div class="max-w-7xl ml-auto">
       <Swiper

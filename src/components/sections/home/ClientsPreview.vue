@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto w-full flex flex-col justify-center py-16 gap-20">
+  <section v-scroll-reveal="'fade-up'" class="container mx-auto w-full flex flex-col justify-center py-16 gap-20">
     <div class="group flex gap-6 items-end text-9xl cursor-pointer" @click="router.push('/clients')">
       <span>Клиенты</span>
       <div>

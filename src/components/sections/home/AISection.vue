@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center w-full min-h-[80dvh] py-8 overflow-hidden">
+  <div v-scroll-reveal="'fade-up'" class="flex items-center justify-center w-full min-h-[80dvh] py-8 overflow-hidden">
     <div
       v-for="block in blocks"
       :key="block.id"

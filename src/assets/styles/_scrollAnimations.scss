@@ -1,0 +1,69 @@
+// Scroll Reveal Animations
+
+// Base hidden state
+.scroll-hidden {
+  opacity: 0;
+}
+
+// Base visible state
+.scroll-visible {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+// Fade Up (default)
+.scroll-fade-up {
+  &.scroll-hidden {
+    transform: translateY(50px);
+  }
+}
+
+// Fade Down
+.scroll-fade-down {
+  &.scroll-hidden {
+    transform: translateY(-50px);
+  }
+}
+
+// Fade Left
+.scroll-fade-left {
+  &.scroll-hidden {
+    transform: translateX(50px);
+  }
+}
+
+// Fade Right
+.scroll-fade-right {
+  &.scroll-hidden {
+    transform: translateX(-50px);
+  }
+}
+
+// Scale
+.scroll-scale {
+  &.scroll-hidden {
+    transform: scale(0.9);
+  }
+}
+
+// Delay utilities
+.scroll-delay-100 {
+  transition-delay: 0.1s;
+}
+
+.scroll-delay-200 {
+  transition-delay: 0.2s;
+}
+
+.scroll-delay-300 {
+  transition-delay: 0.3s;
+}
+
+.scroll-delay-400 {
+  transition-delay: 0.4s;
+}
+
+.scroll-delay-500 {
+  transition-delay: 0.5s;
+}
