@@ -1,3 +1,8 @@
+:root {
+  --p-inputtext-focus-border-color: #fff !important;
+  --p-floatlabel-focus-color: #fff !important;
+}
+
 .p-floatlabel {
   .p-inputtext {
 
@@ -14,4 +19,3 @@
     inset-inline-start: 1rem !important;
   }
 }
-

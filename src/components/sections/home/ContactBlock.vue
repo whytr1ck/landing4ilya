@@ -1,10 +1,17 @@
 <template>
-  <section v-scroll-reveal="'fade-up'" class="container mx-auto w-150 min-h-125 flex flex-col justify-center items-center py-16">
+  <section
+    v-scroll-reveal="'fade-up'"
+    class="container mx-auto w-150 min-h-125 flex flex-col justify-center items-center py-16"
+  >
     <div class="flex flex-col gap-6 max-w-2/3 px-12 py-8 border border-[#F2F2F226] rounded-4xl shadow-2xl">
       <div class="flex flex-col justify-between gap-4 max-w-2/3 w w-full">
         <div class="flex flex-col gap-4 w-full">
           <h4 class="text-5xl">Готовы обсудить Ваши идеи!</h4>
-          <p class="text-lg">Заполните форму, и мы свяжемся с вами для детального обсуждения задач. <br> Вместе определим концепцию, подберём оптимальный стиль, согласуем сроки и бюджет. Вы получите индивидуальное решение, которое усилит ваш бренд и поможет выделиться среди конкурентов.</p>
+          <p class="text-lg">
+            Заполните форму, и мы свяжемся с вами для детального обсуждения задач. <br>
+            Вместе определим концепцию, подберём оптимальный стиль, согласуем сроки и бюджет. Вы получите индивидуальное
+            решение, которое усилит ваш бренд и поможет выделиться среди конкурентов.
+          </p>
         </div>
       </div>
 

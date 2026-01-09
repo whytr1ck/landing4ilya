@@ -1,9 +1,6 @@
 @use "@/assets/styles/ui/input";
 @use "@/assets/styles/ui/button";
 @use "@/assets/styles/ui/toast";
+@use "@/assets/styles/ui/badge";
 
 
-:root {
-  --p-inputtext-focus-border-color: #fff !important;
-  --p-floatlabel-focus-color: #fff !important;
-}

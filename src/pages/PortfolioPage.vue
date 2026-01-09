@@ -1,3 +1,11 @@
+<template>
+  <div class="portfolio-page min-h-dvh">
+    <PortfolioIntro />
+    <CasesList />
+    <ContactCTA />
+  </div>
+</template>
+
 <script setup lang="ts">
 import {useHead} from '@unhead/vue'
 import PortfolioIntro from '@/components/sections/portfolio/PortfolioIntro.vue'
@@ -21,11 +29,3 @@ useHead({
   ]
 })
 </script>
-
-<template>
-  <div class="portfolio-page">
-    <PortfolioIntro />
-    <CasesList />
-    <ContactCTA />
-  </div>
-</template>

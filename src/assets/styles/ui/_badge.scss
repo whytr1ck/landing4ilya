@@ -1,0 +1,10 @@
+:root {
+  --p-badge-primary-background: #fff !important;
+  --p-badge-font-size: 0.875rem !important;
+  --p-badge-font-weight: 500 !important;
+  --p-badge-border-radius: 0.25rem !important;
+}
+
+.p-badge {
+  pointer-events: none;
+}

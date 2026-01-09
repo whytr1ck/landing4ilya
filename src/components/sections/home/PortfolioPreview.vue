@@ -20,7 +20,8 @@
     </div>
 
     <p v-scroll-reveal="'fade-up'" class="absolute top-80 right-10 max-w-xl text-3xl font-medium pointer-events-none">
-      Разрабатываем визуальные решения, объединяя креативный подход с современными технологиями и гибкой системой применения
+      Разрабатываем визуальные решения, объединяя креативный подход с современными технологиями и гибкой системой
+      применения
       <span class="absolute -top-10 -right-8 -rotate-1990 text-7xl">
           ✨
         </span>
@@ -45,13 +46,13 @@
             :class="[
                 image.classes,
                 'object-cover'
-              ]"
-            style=""
+            ]"
           >
-
         </div>
 
-        <p class="text-4xl text-[#8d8d8d] group-hover:text-white transition-colors duration-300">{{ item.title }} - {{ item.description }}</p>
+        <p class="text-4xl text-[#8d8d8d] group-hover:text-white transition-colors duration-300">
+          {{ item.title }} — {{ item.description }}
+        </p>
       </div>
     </div>
   </section>
@@ -107,7 +108,7 @@ const portfolio = ref([
         classes: 'absolute -top-5 -right-30 z-1 max-h-120 h-120'
       },
     ],
-    title: 'YouTube-превью',
+    title: 'Превью для видео',
     description: 'обложки, которые выделяются в рекомендациях и увеличивают CTR видео'
   },
   {
@@ -134,14 +135,24 @@ const portfolio = ref([
   {
     images: [
       {
-        src: 'designSocials/iceCream-desktop.png',
-        name: 'iceCream-desktop',
-        classes: ''
+        src: 'designPackges/package-desktop',
+        name: 'package-desktop',
+        classes: 'absolute top-0 left-0 w-full h-125'
       },
       {
-        src: 'designSocials/iceCream-mobile.png',
-        name: 'iceCream-mobile',
-        classes: ''
+        src: 'designPackges/mini-package-red',
+        name: 'mini-package-red',
+        classes: 'absolute top-30 -right-30 -rotate-15 h-60'
+      },
+      {
+        src: 'designPackges/mini-package-green',
+        name: 'mini-package-green',
+        classes: 'absolute -top-15 -left-15 -rotate-15 h-60'
+      },
+      {
+        src: 'designPackges/mini-package-purple',
+        name: 'mini-package-purple',
+        classes: 'absolute -bottom-5 -left-15 rotate-15 h-60'
       },
     ],
     title: 'Дизайн упаковки',
