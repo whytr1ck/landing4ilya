@@ -1,0 +1,17 @@
+.p-floatlabel {
+  .p-inputtext {
+
+    &.p-inputtext-lg {
+      height: 60px !important;
+      border-radius: 1rem !important;
+      font-size: 1.125rem !important;
+    }
+  }
+
+  label {
+    border-radius: 0.25rem !important;
+    font-size: 1.125rem !important;
+    inset-inline-start: 1rem !important;
+  }
+}
+

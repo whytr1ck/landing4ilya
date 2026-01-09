@@ -34,7 +34,7 @@ const blocks = ref([
 ])
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .ai-block {
   &:after {
     content: '';

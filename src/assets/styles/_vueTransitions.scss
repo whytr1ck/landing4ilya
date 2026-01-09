@@ -1,0 +1,29 @@
+// Fade transition
+.fade-enter-active {
+  transition: opacity .7s;
+}
+
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// FadeChange transition
+.fadeChange-enter-active,
+.fadeChange-leave-active {
+  transition: opacity .4s .15s;
+}
+
+.fadeChange-leave-active {
+  position: absolute;
+  transition: opacity .4s;
+}
+
+.fadeChange-enter-from,
+.fadeChange-leave-to {
+  opacity: 0;
+}

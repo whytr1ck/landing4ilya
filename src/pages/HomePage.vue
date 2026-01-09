@@ -6,6 +6,7 @@
     <ClientsPreview />
     <StatsSection />
     <ReviewsSection />
+    <ContactBlock />
   </div>
 </template>
 
@@ -16,5 +17,6 @@ import PortfolioPreview from '@/components/sections/home/PortfolioPreview.vue'
 import ClientsPreview from '@/components/sections/home/ClientsPreview.vue'
 import StatsSection from '@/components/sections/home/StatsSection.vue'
 import ReviewsSection from "@/components/sections/home/ReviewsSection.vue";
+import ContactBlock from "@/components/sections/home/ContactBlock.vue";
 </script>
 

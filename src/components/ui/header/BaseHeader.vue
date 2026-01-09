@@ -32,7 +32,7 @@
           :key="link.title"
           :to="link.href"
           :class="[
-            `text-2xl text-white p-2 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full`,
+            `text-2xl font-thin tracking-wide text-white p-2 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full`,
             `${link.href === router.currentRoute.value.fullPath ? 'after:w-full' : 'after:w-0'}`
           ]"
         >
@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import {computed, ref} from "vue";
+import {ref} from "vue";
 import {useScrollY} from "@/composables/scrollY.ts";
 import {scrollToTop} from "@/utils/scroll.ts";
 import router from "@/router";
